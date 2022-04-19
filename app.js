@@ -8,9 +8,9 @@ app.get("/about", (req, res, next) => {
 })
 
 app.get("/gallery", (req, res, next) => {
-  res.sendFile(__dirname + '/views/gallety.html');
+  res.sendFile(__dirname + '/views/gallery.html');
 })
 
 app.listen(3000, () => {
-  console.log("server listening to requests ...c");
+  console.log("server listening to requests ...");
 });
