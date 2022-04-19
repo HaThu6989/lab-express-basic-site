@@ -16,5 +16,5 @@ app.get("/gallery", (req, res, next) => {
 })
 
 app.listen(3000, () => {
-  console.log("server listening to requests ...c");
+  console.log("server listening to requests ...");
 });
