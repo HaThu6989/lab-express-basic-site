@@ -7,8 +7,13 @@ app.get("/about", (req, res, next) => {
   res.sendFile(__dirname + '/views/about.html');
 })
 
+
 app.get("/gallery", (req, res, next) => {
   res.sendFile(__dirname + '/views/gallery.html');
+})
+
+app.get("/works", (req, res, next) => {
+  res.sendFile(__dirname + '/views/works.html');
 })
 
 app.listen(3000, () => {
